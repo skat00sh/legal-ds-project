@@ -1,2 +1,4 @@
 /data/*
+/highlighted_doc/*
 .idea/*
+*.pkl
