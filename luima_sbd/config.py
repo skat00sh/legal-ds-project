@@ -3,7 +3,7 @@ TOKENIZATION_STRING = r"[A-z]+|\d+|[ \t\f]+|[\n\r\v]+|[^A-z\d\s]"
 
 # File paths
 MODULE_DIR = "luima_sbd"
-DATA_DIR = "data"
+DATA_DIR = "/home/skatoosh/project/legal_ds_project/legal-ds-project/luima_sbd/data"
 SEN_MODEL = "sbd_SEN.crfsuite"
 NSEN_MODEL = "sbd_NSEN.crfsuite"
 INTEGRATING_MODEL = "sbd_INT.crfsuite"

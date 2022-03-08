@@ -1,5 +1,5 @@
 from __future__ import division
-import config
+from luima_sbd import config
 import pycrfsuite
 import re
 import os
@@ -20,7 +20,7 @@ def text2sentences(text, offsets=False):
     if offsets:
         return indices
     else:
-        return [text[indice[0] : indice[1]] for indice in indices]
+        return [text[indice[0] : indice[1]] for indice in indices], indices
 
 
 def preds2sentences(matches, preds):
